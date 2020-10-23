@@ -50,7 +50,7 @@ R : command line interface
 
 Type R in terminal
 
-Next to > symbol type, type
+Next to > symbol, type
 
 Install.packages((“IRkernel”)
 
