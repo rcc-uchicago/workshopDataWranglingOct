@@ -39,11 +39,11 @@ done
 # COMPLETE DEFAULT PARAMS
 if [ -z "$TIME" ]
 then
-    TIME="24:00:00" # Set walltime
+    TIME="4:00:00" # Set walltime
 fi
 if [ -z "$MEM" ]
 then
-    MEM="52GB"      # Set memory
+    MEM="32GB"      # Set memory
 fi
 if [ -z "$N_CPU" ]
 then
@@ -64,7 +64,7 @@ fi
 R_MODULE="R/3.6.1"
 CONSTRAINT=""   # Set slurm resource constraints. If left unset no constraints applied.
  GRES=""         # Set if using a GPU partition and require use of one or more gpus  (e.g. gpu:1 for one gpu) 
- LOGS="/home/humaasif/humaWorkshopMaterial"
+ LOGS="/home/humaasif/workshopDataWrangling"
  ########################################
 #
 #SET THE PORT NUMBER
