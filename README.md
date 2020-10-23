@@ -10,7 +10,7 @@ scp filename CNETID@midway2.rcc.uchicago.edu:/PATH/TO/FOLDER
   
 scp : secure copy.  
 
-Steps to create your own conda environment on RCC cluster
+Steps to create your own conda environment at RCC cluster
 
 You can use your scratch or project space. Home space is not recommended because it has limited space. 
 
