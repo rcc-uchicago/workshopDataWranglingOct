@@ -69,11 +69,22 @@ conda deactivate
 To run the jupyter Notebook script, first modify these lines
 
 
+TIME="04:00:00" # Set walltime
+
+MEM="32GB" # set memory
+
+N_CPU=1. # set number of CPUs
+
+PART=edu
+
+
 PYTHON_MODULE="anaconda-2020.02"  # Python module to use anaconda dist of python
 
 CONDA_ENV="/scratch/midway2/humaasif/conda-env"    # change conda environment name. 
 
 R_HOME="R/3.6.1"   
+
+
 
 LOGS="/home/humaasif/WorkshopMaterial" # change this according to your folder
           
