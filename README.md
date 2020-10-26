@@ -52,7 +52,7 @@ Type R in terminal
 
 Next to > symbol, type
 
-Install.packages((“IRkernel”)
+install.packages(“IRkernel”)
 
 For making the kernel available to Jupyter,  type this command in R:
 
