@@ -78,7 +78,7 @@ N_CPU=1. # set number of CPUs
 PART=edu  # partition name
 
 
-PYTHON_MODULE="anaconda-2020.02"  # Python module to use anaconda dist of python
+PYTHON_MODULE="python/anaconda-2020.02"  # Python module to use anaconda dist of python
 
 CONDA_ENV="/scratch/midway2/humaasif/conda-env"    # change conda environment name. 
 
