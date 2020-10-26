@@ -75,7 +75,7 @@ MEM="32GB" # set memory
 
 N_CPU=1. # set number of CPUs
 
-PART=edu
+PART=edu  # partition name
 
 
 PYTHON_MODULE="anaconda-2020.02"  # Python module to use anaconda dist of python
